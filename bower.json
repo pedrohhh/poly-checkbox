@@ -1,0 +1,27 @@
+{
+  "name": "poly-checkbox",
+  "description": "checkbox",
+  "main": "checkbox.html",
+  "moduleType": [],
+  "keywords": [
+    "polymer",
+	"checkbox"
+  ],
+  "authors": [
+    "Pedro"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/pedrohhh/poly-checkbox",
+  "dependencies": {
+    "platform": "Polymer/platform#^0.4.2",
+    "polymer": "^1.4.0"
+  }
+}
