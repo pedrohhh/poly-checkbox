@@ -4,8 +4,7 @@
     <template>
         <style>
         </style>
-        <input data-index="{{dataindex}}" type="{{type}}" name="{{name}}" value="{{value}}" >
-         
+        <input type="{{type}}" name="{{name}}" value="{{value}}" > {{text}}
     </template>
      
     <script>
@@ -18,7 +17,8 @@
                     value: "radio"
                 },
                 name: String,
-                value: String                
+                value: String,
+                text: String                
             }
         });
         
