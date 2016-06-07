@@ -3,14 +3,20 @@
 <dom-module id="checkbox-element">
     <template>
         <style>
-            .text{
+            .texot{
                 margin-top: -32px;
                 margin-left: 2px;
             }
+            
+            #radio{
+                margin-left: 23px;
+                line-height: 25px;
+            }
+            
         </style>
         
-       <div class="radio"> 
-          <input type="{{type}}" name="{{name}}" value="{{value}}" > <div class="text">{{text}}</div>
+       <div id="radio" class="{{dataindex}}"> 
+         <input type="{{type}}" name="{{name}}" value="{{value}}" > {{text}}         
        </div>
        
     </template>
